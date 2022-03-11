@@ -12,6 +12,7 @@
 
 html {
     font-size: 62.5%; /* 1 rem = 10px */
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -724,8 +725,27 @@ html {
     color: var(--primary-color);
 }
 
+/* Section 5 */
 
+.section-6 {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
 
+.icon-link {
+    margin: 0 5rem;
+}
 
+.icon-link img {
+    width: 10rem;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5rem;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
 
 /* End */

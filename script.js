@@ -1,7 +1,7 @@
 // common JS
 
 // prevent link controls from moving to top of page
-document.querySelectorAll('.watch-control, .controls a').forEach((control) => {
+document.querySelectorAll('.watch-control, .controls a, .iphone-btn').forEach((control) => {
     control.addEventListener("click", e => {
         e.preventDefault();
     })
